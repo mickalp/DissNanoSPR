@@ -18,8 +18,8 @@ This repository contains a machine learning model that predicts the dissolution 
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/your-username/nanomaterial-dissolution.git
-   cd nanomaterial-dissolution
+   git clone https://github.com/mickalp/DissNanoSPR.git
+   cd DissNanoSPR
    ```
 
 2. **Run the script**:
