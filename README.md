@@ -24,13 +24,13 @@ This repository contains a machine learning model that predicts the dissolution 
 
 2. **Run the script**:
    ```bash
-   python main.py --path_to_csv_file <PATH_TO_CSV>
+   python main.py --model DissNanoSPR_model.joblib --input data.xlsx --output predictions.xlsx
    ```
-   Replace `<PATH_TO_CSV>` with the path to your input CSV file.
+   Replace `data.xlsx` with the path to your input xlsx file.
 
 ## Input Data Format
 
-The CSV file must contain **exactly 8 columns** corresponding to the following variables (in this order):
+The xlsx file must contain **exactly 8 columns** corresponding to the following variables (in this order):
 
 1. **Solvation enthalpy**  
 2. **Bond dissociation enthalpy**  
@@ -45,7 +45,7 @@ The CSV file must contain **exactly 8 columns** corresponding to the following v
 
 ## Output
 
-After running the script, the predictions for the dissolution of each nanomaterial listed in your CSV will be displayed or saved.
+After running the script, the predictions for the dissolution of each nanomaterial listed in your xlsx will be displayed or saved.
 
 ## Future Updates
 
