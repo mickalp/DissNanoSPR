@@ -55,4 +55,7 @@ After running the script, the predictions for the dissolution of each nanomateri
 
 For questions or issues, please open a GitHub Issue or contact the repository maintainer.
 
+Orginall paper after revision can be found: https://doi.org/10.1039/D4GC06312K 
+Preprint without revision stage (open access): 
+
 More detailed description of the model and predictions will be updated as soon as orginal manuscript will be accepted for publication.
